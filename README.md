@@ -15,7 +15,7 @@
 
 0. Add your C# Assembly file into your git repo. 
 1. Replace `REPLACE_ME_TO_YOUR_ASSEMBLY.dll` into your C# Assembly file.
-2. Enable github actions.
+2. Enable github actions and **Allow GitHub Actions to create and approve pull requests**
 3. Run github action by workflow dispatch OR by updating your C# Assembly file.
 4. Get the decompiled code from the auto generated PR.
 
