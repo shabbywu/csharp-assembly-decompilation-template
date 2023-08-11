@@ -13,12 +13,14 @@
 
 ## 🤸 Usage
 
+0. Add your C# Assembly file into your git repo. 
 1. Replace `REPLACE_ME_TO_YOUR_ASSEMBLY.dll` into your C# Assembly file.
 2. Enable github actions.
 3. Run github action by workflow dispatch OR by updating your C# Assembly file.
 4. Get the decompiled code from the auto generated PR.
 
 ```yaml
+# file: .github\workflows\decompile.yml
 name: Decompile
 on:
   push:
@@ -60,4 +62,4 @@ jobs:
 ```
 
 ## Example
-1. [michangsheng](https://github.com/shabbywu/michangsheng)
+1. [michangsheng](https://github.com/shabbywu/michangsheng/blob/main/.github/workflows/decompile.yml)
