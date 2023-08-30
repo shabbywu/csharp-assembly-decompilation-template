@@ -63,3 +63,4 @@ jobs:
 
 ## Example
 1. [michangsheng](https://github.com/shabbywu/michangsheng/blob/main/.github/workflows/decompile.yml)
+2. [Skul-Decompile](https://github.com/shabbywu/Skul-Decompile/blob/main/.github/workflows/decompile.yml)
